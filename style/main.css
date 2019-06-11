@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+.container{
+	width: 1250px;
+	margin: 0 auto;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+}
+.add-items img{
+	width: 25px;
+}
+.logo, .main-menu, .add-items{
+	display: inline-block;
+}
+.first{
+	background: #cf3030;
+}
+.logo a{
+	font-size: 25px;
+	color: #fff;
+	margin-right: 20px;
+}
+.main-menu{
+	padding: 10px 0px;
+}
+.main-menu a{
+	color: #EDEDED;
+	font-size: 18px;
+}
+.main-menu a:hover{
+	color: #565656;
+	transition: 0.7s;
+	text-decoration: underline;
+}
+.main-menu li{
+	margin-right: 10px;
+	padding: 15px;
+}
+.main-menu li:last-child{
+	margin-right: 450px;
+}
+.add-items{
+	vertical-align: middle;
+}
+.add-items a:not(:last-child){
+	margin-right: 10px;
+}
+
+.second{
+	height: 397px;
+	background-image: url("../pic/bg1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 320px;
+	background-size: cover;
+}
+.second h1{
+	font-size: 50px;
+	text-align: left;
+	color: #FFF;
+	font-weight: bold;
+}
+.sec-header{
+	text-align: center;
+	font-size: 30px;
+	color: #cf3030;
+	margin-bottom: 80px;
+}
+.third{
+	padding: 90px 0;
+	text-align: center;
+}
+div.items{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+div.items div{
+	display: inline-block;
+	width: 24%;
+}
+.about-item{
+	color: #cf3030;
+	font-size: 20px;
+	font-weight: bold;
+}
+.items div p{
+	margin-top: 10px;
+}
+.btn{
+	background: #cf3030;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+}
+.btn:hover{
+	transition: 0.7s;
+	background: #781f1f;	
+}
+.fourth .container .rows-1 div{
+	display: inline-block;
+}
+.left-col, .rigth-col{
+	margin: 0;
+	padding: 0;
+}
+.left-col{
+	width: 500px;
+}
+.right-col{
+	width: 500px;
+}
+.two{
+	width: 500px;
+}
+div.left-col.two1{
+	text-align: right;
+	padding-left: 70px;
+}
+.fourth{
+	text-align: center;
+	background: #EDEDED;
+	padding-top: 80px;
+}
+.left-col span{
+	font-weight: bold;
+	font-size: 25px;
+}
+.left-col p{
+	margin: 10px 0 30px 0;
+	font-size: 18px;
+}
+.left-col{
+	padding: 100px 30px 0px 30px; 
+	vertical-align: top;
+	text-align: left;
+}
+.right-col img{
+	width: 550px;
+	height: 500px;
+}
+.last{
+	text-align: center;
+	padding: 70px 0;
+}
+.row-1 div{
+	width: 350px;
+	height: 300px;
+	text-align: center;
+	display: inline-block;
+	transition: 0.5s;
+}
+.row-1 div:hover, .row-2 div:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+.row-1 div:not(:last-child){
+	margin-right: 30px;
+}
+.row-1 div span, .row-2 div span{
+	color: #000;
+	font-size: 28px;
+	font-weight: bold;
+}
+.row-1, .row-2{
+	margin-bottom: 50px;
+}
+.last-item{
+	background-image: url("../pic/pic-4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.twow{
+	background-image: url("../pic/pic-8.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.three{
+	background-image: url("../pic/bg2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.row-2 div{
+	width: 538px;
+	height: 400px;
+	text-align: center;
+	display: inline-block;
+	transition: 0.5s;
+}
+
+.ones{
+	background-image: url("../pic/pic-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-right: 40px;
+}
+.twos{
+	background-image: url("../pic/pic-10.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.req{
+	padding: 10px;
+	font-size: 20px;
+}
+.footer{
+	text-align: center;
+	background: #EDEDED;
+	padding: 40px 0;
+}
+.footer h1{
+	color: #cf3030;
+	font-size: 30px;
+}
+.request{
+	color: #cf3030;
+	font-size: 20px;
+}
+footer{
+	padding-top: 50px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+footer a{
+	margin-right: 20px;
+	color: #000;
+}
+footer span{
+	color: #565656;
+	font-size: 15px;
+}
+.links{
+	margin-bottom: 10px;
+}
